@@ -6,10 +6,11 @@ GO
 --SET ANSI_NULLS ON|OFF
 --RED-GATE\arneh.eskandari
 --GO
-CREATE PROCEDURE [dbo].[GetComments]
+CREATE PROC [dbo].[GetComments]
     
 -- WITH ENCRYPTION, RECOMPILE, EXECUTE AS CALLER|SELF|OWNER| 'user_name'
 AS
-    SELECT Text  
+    SELECT Text,Score  
     FROM    dbo.Comments;
+
 GO
