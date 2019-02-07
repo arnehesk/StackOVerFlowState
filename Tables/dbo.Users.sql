@@ -13,7 +13,8 @@ CREATE TABLE [dbo].[Users]
 [UpVotes] [int] NOT NULL,
 [Views] [int] NOT NULL,
 [WebsiteUrl] [nvarchar] (200) COLLATE SQL_Latin1_General_CP1_CS_AS NULL,
-[AccountId] [int] NULL
+[AccountId] [int] NULL,
+[Sex] [nvarchar] (2) COLLATE SQL_Latin1_General_CP1_CS_AS NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[Users] ADD CONSTRAINT [PK_Users_Id] PRIMARY KEY CLUSTERED  ([Id]) ON [PRIMARY]
