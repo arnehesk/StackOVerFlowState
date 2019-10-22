@@ -5,10 +5,11 @@
   <DefaultSchema>dbo</DefaultSchema>
   <DefaultUser>dbo</DefaultUser>
   <DefaultFilegroup>PRIMARY</DefaultFilegroup>
-  <DatabaseVersion>12</DatabaseVersion>
+  <DatabaseVersion>13</DatabaseVersion>
   <IsAzure>False</IsAzure>
   <ScriptFolderType>Default</ScriptFolderType>
   <MaxDataFileSize>10485760</MaxDataFileSize>
+  <ProjectGuid>2d362d38-f5c0-411d-b8fe-2e257abe3f98</ProjectGuid>
   <WriteToFileOptions>
     <Prefixes>
       <None>
@@ -58,6 +59,7 @@
     <DataWriteAllFilesInOneDirectory>True</DataWriteAllFilesInOneDirectory>
   </WriteToFileOptions>
   <DataFileSet>
-    <Count>0</Count>
+    <Count>1</Count>
+    <DataFile>dbo.PostTypes_Data.sql</DataFile>
   </DataFileSet>
 </DatabaseInformation>

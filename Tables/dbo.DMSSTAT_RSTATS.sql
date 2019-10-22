@@ -15,7 +15,8 @@ CREATE TABLE [dbo].[DMSSTAT_RSTATS]
 [rowoperations] [int] NULL,
 [coloperations] [int] NULL,
 [rulePrevRPN] [int] NULL,
-[ruleRPN] [int] NULL
+[ruleRPN] [int] NULL,
+[RuleNumber] [int] NULL
 ) ON [PRIMARY]
 GO
 CREATE NONCLUSTERED INDEX [IX_DMSSTAT_RSTATS] ON [dbo].[DMSSTAT_RSTATS] ([runid], [ruleid]) ON [PRIMARY]
